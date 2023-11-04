@@ -1,1 +1,7 @@
-
+spring:
+  cloud:
+    openfeign:
+      client:
+        config:
+          coin-gecko-client:
+            url: https://api.coingecko.com/api/v3
